@@ -10,7 +10,7 @@ cask "perch" do
   desc "Floating panel that reads your Slack and tells you who's waiting on you"
   homepage "https://github.com/naouaro/Perch"
 
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "Perch.app"
 
