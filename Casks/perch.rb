@@ -1,9 +1,9 @@
-# Cask for Perch. Activates with the first GitHub release — see README.md.
+# Cask for Perch.
 
 
 cask "perch" do
   version "0.1.0"
-  sha256 "REPLACE_WITH_SHA256_OF_DMG"
+  sha256 "dc2895f04bccd3d619e277c322045bae34f4eb95e81af4a45fc49212b5bd6f00"
 
   url "https://github.com/naouaro/Perch/releases/download/v#{version}/Perch.dmg"
   name "Perch"
